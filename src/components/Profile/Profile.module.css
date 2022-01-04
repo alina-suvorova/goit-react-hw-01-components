@@ -1,0 +1,29 @@
+.profile {
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.description {
+    text-align: center;
+}
+.name, .quantity{
+    font-weight: bold;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+.stats {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 2px solid lightgray;
+}
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

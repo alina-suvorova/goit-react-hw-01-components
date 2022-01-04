@@ -1,0 +1,13 @@
+.transactionHistory {
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.transactionsHead {
+    background-color: #64ABE6;
+    color: #ffffff;
+    height: 40px;
+}
