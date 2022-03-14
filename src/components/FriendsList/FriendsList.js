@@ -6,7 +6,8 @@ const FriendsList = ({friends}) => {
     return (
         <ul className={style.friendsList}>
             {friends.map((friend)=>
-            <li className={style.friendsListItem}  key={friend.id}>
+            <li className={style.friendsListItem}  
+                key={friend.id}>
                 <FriendsListItem 
                 status={friend.isOnline}
                 avatar={friend.avatar}
@@ -20,5 +21,7 @@ const FriendsList = ({friends}) => {
 export default FriendsList;
 
 FriendsList.propType = {
-    friends: PropTypes.arrayOf(PropTypes.shape({id: PropTypes.string.isRequired,}),),
+    friends: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string.isRequired,
+    }),),
 }

@@ -11,7 +11,7 @@ const FriendsListItem = ({status, avatar, name}) => {
 
 export default FriendsListItem;
 
-FriendsListItem.propType ={
+FriendsListItem.propType = {
     status: PropTypes.bool.isRequired,
     name: PropTypes.string.isRequired,
 }
